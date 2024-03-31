@@ -1,0 +1,274 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none !important;
+}
+.wrapper{
+    margin-top: 70px;
+}
+
+.topBanner img{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin: auto; 
+}
+.nav-link{
+    color: #ffffff !important;
+    font-weight: 400 !important;
+}
+.bannerTitle{
+    position: absolute;
+    top: 15%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+   font-size: 24px;
+   font-weight: 600;
+    padding: 10px; 
+}
+.slide{
+    width: 100%;
+   height: auto;
+   margin:0 auto;
+   padding: 0px;
+
+}
+
+.slideitem{
+    width: 100%;
+    height: 41vh !important;
+    position: relative;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 30%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.bannerItem img{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.sub-content{
+    margin-top: 25%;
+    margin-left:30%;
+}
+/* overlay */
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 239, 239, 0.5); /* Adjust opacity as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    color: white; /* Text color for overlay content */
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.overlay .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: skyblue;
+}
+
+.overlay .subTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #050505;
+}
+
+.overlay .subTitle span {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: green;
+}
+.bannerBtn{
+    border-radius: 0px !important;
+    margin-top: 10px;
+}
+
+.slick-slide img {
+    display:inline-block !important;
+
+}
+
+
+.productItem img{
+    width: 100px;
+    height: 100px;
+}
+
+.detailsItem img {
+    width: 100%;
+    height: auto;
+}
+
+.details{
+    width: 100%;
+    height: auto;
+}
+
+/* cart item */
+
+.cardItem{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    background-color: rgb(252, 215, 222, 0.3);
+}
+
+ .cardItem1{
+    /* background-color: rgb(252, 215, 222, 0.3);
+    transition: all 1s ease;     */
+    margin-top: 50px ;
+} 
+
+.cardTitle{
+    font-size: 24px;
+}
+
+.cardItem p {
+font-size: 14px;
+}
+
+.card-content{
+    width: 100%;
+    height: auto;
+    padding:5px ;
+}
+.offer{
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+    background:orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 24px;
+
+}
+
+.card-right-content img{
+    width: 100%;
+    height: auto; 
+}
+
+
+/* SUPPOT SECTION */
+
+.supportItem{
+    width: 100%;
+    height: auto; 
+    border: 1px dotted #a6a6a6;
+    margin-top: 50px;
+}
+
+.supportItem p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.supportIcon{
+    font-size: 30px;
+    color: #666;
+    margin-top: 7px;
+}
+
+/* CATEGORY */
+
+.catTitle{
+    margin: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.category-itmem{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+   
+}
+
+.category-itmem img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.categoryName{
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* LOGIN PAGE */
+
+.login-fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .login-legend {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  /* ORDER PAGE */
+
+  .CardItem{
+    width: 100%;
+    height: 140px;
+    border-radius: 5px;
+    background: white;
+    padding:5px;
+    text-align: center;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .CardItem .title{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.88);
+  }
